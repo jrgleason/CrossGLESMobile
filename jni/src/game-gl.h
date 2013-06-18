@@ -25,5 +25,6 @@
 
 #endif
 void renderFrameLine();
-void InitializeOpenGL(int i, int p, GLuint pro);
+int InitializeOpenGL();
 void resizeViewport(int newWidth, int newHeight);
+void moveX(float x);

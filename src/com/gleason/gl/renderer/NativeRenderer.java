@@ -23,6 +23,6 @@ public class NativeRenderer implements GLSurfaceView.Renderer {
 	@Override
 	public void onSurfaceCreated(GL10 arg0, EGLConfig arg1) {
 		// TODO Auto-generated method stub
-		Native.init(0,0);
+		Native.init();
 	}
 }
